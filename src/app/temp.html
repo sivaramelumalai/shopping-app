@@ -1,0 +1,19 @@
+<h2 id="producthead"><b>Choose your product</b> </h2> 
+ <div class="card-columns">    
+       
+ <div *ngFor="let product of products; index as productId">
+        <div class="card" style="width: 15rem; height: 9rem">
+                <img src="{{ product.img }}" class="card-img-top"  alt="...">
+                <div class="card-pf-body text-danger">
+                 <a [title]="product.name + ' details'" [routerLink]="['/products', productId]">
+                        <h5 class="card-title">{{ product.name }}</h5>  
+                 </a>
+                  <p class="card-text">{{ product.description}}</p>
+                  <a href="#" class="btn btn-primary" (click)= share()>Share</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#" class="btn btn-primary" (click)= favorite()>favorite</a>
+                
+                </div><br/>
+              </div>
+    
+  
+  </div></div></div></div></div></div>

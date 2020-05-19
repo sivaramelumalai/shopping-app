@@ -1,0 +1,32 @@
+
+
+<!-- <button style="margin-top: 10%"  class="btn pmd-btn-fab pmd-ripple-effect btn-info pmd-btn-raised" type="button"><i class="material-icons pmd-sm">info</i></button> -->
+
+
+<h2 id="producthead"><b>Choose your product</b> </h2>
+
+<div class="card-deck">
+    <div class="row"> 
+      <div *ngFor="let product of products; index as productId" >
+  <div class="card-pf card-pf-view card-pf-view-select card-pf-view-multi-select " style="width:200px ; margin: 10%">
+      <img class="card-img-top" src="{{ product.img}}" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title text-center">{{ product.name }}</h4>
+        <p class="card-pf-title ">{{ product.price | currency }}</p>
+        <a href="#" class="btn btn-primary " [routerLink]="['/products', productId]">Details</a>
+      </div>
+      <div class="card-pf-view-checkbox streched-link">
+        <input type="checkbox">
+      </div> 
+    </div> 
+  </div>
+</div>
+</div>
+
+
+  
+
+
+  
+
+  

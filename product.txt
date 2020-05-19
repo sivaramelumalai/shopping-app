@@ -1,0 +1,92 @@
+{
+      name: 'Pen',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/pen.jpeg'
+    },
+    {
+      name: 'Sketchpen',
+      price: 299,
+      description: 'the set of 12 sketch pens Writes 2x times than the normal pen',
+      img:'./assets/sketchpen.jpeg'
+    },
+    {
+      name:'Watercolor',
+      price: 100,
+      description:"These are the good color in the market",
+      img:'./assets/watercolor.png'
+    },
+    {
+      name: 'clipboard',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/clipboard.jpeg'
+    },
+    {
+      name: 'colorpencil',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/colorpencil.jpeg'
+    },
+    {
+      name: 'craftpaper',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/craftpaper.jpeg'
+    },
+    {
+      name: 'dairy',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/dairy.jpeg'
+    },
+    {
+      name: 'folder',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/floder.jpeg'
+    },
+    {
+      name: 'fountain pen',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/fountainpen.jpeg'
+    },
+    {
+      name: 'Gel Pen',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/gelpen.jpeg'
+    },
+    {
+      name: 'marker Pen',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/marker.jpeg'
+    },
+    {
+      name: 'notebook',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/notebook.jpeg'
+    },
+    {
+      name: 'paperclip',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/paperclip.jpeg'
+    },
+    {
+      name: 'Penstand',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/penstand.jpeg'
+    },
+    {
+      name: 'stapler',
+      price: 69,
+      description: 'Longlasting pen . Writes 2x times than the normal pen',
+      img:'./assets/stapler.jpeg'
+    },
+ 
+  ];

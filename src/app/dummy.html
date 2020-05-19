@@ -1,0 +1,21 @@
+<div class="card-group" style="margin-top: 10%">
+  <div class="row"> 
+	<div class="btn-group " *ngFor="let product of products; index as productId" data-toggle="buttons"> 
+   <label class="btn btn-outline-dark " (click)='addtoarray(product.name,product.price)'>
+			<input type="checkbox" checked>
+			<span class="fa fa-check">
+        <div class="card-pf card-pf-view card-pf-view-select  " style="width:200px ; margin:0%">
+          <img class="card-img-top" src="{{ product.img}}" style="align-self: center" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-center">{{ product.name }}</h4>
+            <p class="card-pf-title ">{{ product.price | currency }}</p>
+            <a href="#" class="btn btn-primary " [routerLink]="['/products', productId]">Details</a>
+          </div>
+        </div> 
+      </span>
+		</label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </div>
+  
+</div>
+<button class="floating-action-button" (click)='cart()'>add</button>
